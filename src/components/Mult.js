@@ -1,8 +1,10 @@
 import React from 'react';
 import {Text} from 'react-native';
 
+import styleTxt from './style';
+
 const Comp = () => {
-  return <Text>Comp oficial</Text>;
+  return <Text style={styleTxt.txt}>Comp oficial</Text>;
 };
 export const Comp1 = () => {
   return <Text>Comp1</Text>;
