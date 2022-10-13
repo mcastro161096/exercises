@@ -1,0 +1,18 @@
+{
+	"Print to console": {
+		"scope": "javascript",
+		"prefix": "comp",
+		"body": [
+			"import React from 'react';",
+			"import {View} from 'react-native';",
+			"",
+			"export default props => {",
+			"  return (",
+			"    <View>$1</View>",
+			"  );",
+			"};",
+			"",
+		],
+		"description": "Log output to console"
+	}
+}
